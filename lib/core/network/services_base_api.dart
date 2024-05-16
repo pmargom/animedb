@@ -18,7 +18,7 @@ class ServicesBaseApi {
   }) async {
     try {
       final response = await _dio.get(url, queryParameters: queryParameters);
-      return response.data;
+      return response;
     } catch (e) {
       rethrow;
     }

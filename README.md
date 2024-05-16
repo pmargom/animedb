@@ -13,7 +13,7 @@ It is an app that allows you to load a set of radio stations consuming the free 
 
 If everything goes fine, you should see something like this:
 
-| <img src="./screenshots/screen1.png" style="width:240px;" /> | <img src="./screenshots/screen3.png" style="width:240px;" /> | <img src="./screenshots/screen2.png" style="width:240px;" /> |
+ <img src="./screenshots/screen1.png" style="width:240px;" />  <img src="./screenshots/screen3.png" style="width:240px;" />  <img src="./screenshots/screen2.png" style="width:240px;" /> 
 
 
 For help getting started with Flutter development, view the

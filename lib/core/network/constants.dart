@@ -1,3 +1,3 @@
-const apiBaseUrl = "https://api.coingecko.com/api";
-const apiVersion = "v3";
+const apiBaseUrl = "https://api.jikan.moe/";
+const apiVersion = "v4";
 const apiBaseUrlWithVersion = "$apiBaseUrl/$apiVersion/";

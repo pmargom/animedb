@@ -1,4 +1,4 @@
-import 'package:animedb/features/home/domain/entities/api_response_entity.dart';
+import 'package:animedb/domain/entities/api_response_entity.dart';
 
 class ApiResponse {
   Pagination pagination;

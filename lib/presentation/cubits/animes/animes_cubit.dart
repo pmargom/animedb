@@ -1,5 +1,5 @@
-import 'package:animedb/features/home/domain/entities/api_response_entity.dart';
-import 'package:animedb/features/home/domain/use_cases/get_animes_usecase.dart';
+import 'package:animedb/domain/entities/api_response_entity.dart';
+import 'package:animedb/domain/use_cases/get_animes_usecase.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 part 'animes_state.dart';

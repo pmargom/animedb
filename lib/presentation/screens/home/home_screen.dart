@@ -1,9 +1,10 @@
 import "dart:async";
 
-import "package:animedb/features/home/domain/entities/api_response_entity.dart";
-import "package:animedb/features/home/presentation/cubits/animes/animes_cubit.dart";
-import "package:animedb/features/home/presentation/screens/home/anime_item_list.dart";
-import "package:animedb/features/home/presentation/widgets/custom_loading.dart";
+import "package:animedb/domain/entities/api_response_entity.dart";
+import "package:animedb/presentation/cubits/animes/animes_cubit.dart";
+import "package:animedb/presentation/screens/home/anime_item_list.dart";
+import "package:animedb/presentation/widgets/custom_error.dart";
+import "package:animedb/presentation/widgets/custom_loading.dart";
 import "package:flutter/material.dart";
 import "package:flutter_bloc/flutter_bloc.dart";
 
@@ -185,8 +186,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
         }
 
         if (state is AnimesError) {
-          final String message = state.message;
-          return Text("Error: $message");
+          return CustomError(message: state.message);
         }
         if (state is AnimesLoaded) {
           final List<AnimeItemEntity> animes = state.animes;

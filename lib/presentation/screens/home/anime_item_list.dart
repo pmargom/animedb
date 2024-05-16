@@ -1,5 +1,5 @@
-import 'package:animedb/features/home/domain/entities/api_response_entity.dart';
-import 'package:animedb/features/home/presentation/widgets/anime_item.dart';
+import 'package:animedb/domain/entities/api_response_entity.dart';
+import 'package:animedb/presentation/widgets/anime_item.dart';
 import 'package:flutter/material.dart';
 
 class AnimeItemList extends StatelessWidget {
